@@ -8,6 +8,7 @@ Built with React + Ant Design, styled with a dark UI theme.
 - Add/Edit/Delete fields and nested structures
 - Customizable field types
 - Dark mode design (custom CSS)
+- Responsive for all Devices
 
 ### 🚀 Author
 Built by Mohamad Kaif as part of a hiring task challenge.
