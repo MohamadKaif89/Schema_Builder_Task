@@ -1,24 +1,14 @@
-# Schema_Builder_Task
+## 🤖 JSON Schema Builder
 
-# JSON Schema Builder (React + Ant Design)
+A personal project where users can build nested JSON schemas live.  
+Built with React + Ant Design, styled with a dark UI theme.
 
-A dynamic JSON Schema Builder built using **React**, **React Hook Form**, and **Ant Design**. This tool allows users to create, nest, and manage custom JSON structures visually — with live preview updates.
+### 💡 Features
+- Live JSON output as you type
+- Add/Edit/Delete fields and nested structures
+- Customizable field types
+- Dark mode design (custom CSS)
 
----
+### 🚀 Author
+Built by Mohamad Kaif as part of a hiring task challenge.
 
-## ✨ Features
-
-- ✅ Add, edit, and delete fields dynamically
-- 📁 Supports nested objects
-- 🔁 Live JSON output preview while typing
-- 🎨 Dark mode design (custom CSS)
-- 📦 Field types supported: String, Number, Nested
-
----
-
-## 🚀 Tech Stack
-
-- **React**
-- **React Hook Form** – for form handling
-- **Ant Design (AntD)** – UI components
-- **Custom CSS** – for styling and layout
