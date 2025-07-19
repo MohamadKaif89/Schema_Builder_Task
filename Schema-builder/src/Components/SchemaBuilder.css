@@ -1,0 +1,82 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.schema-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.schema-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-section {
+  flex: 1 1 50%;
+}
+
+.json-preview {
+  flex: 1 1 45%;
+  max-height: none;
+  overflow: auto;
+}
+
+.json-card {
+  background-color: #1e1e1e !important;
+  color: #0f0;
+  height: auto; 
+  overflow: visible; 
+}
+
+.field-card {
+  margin-bottom: 10px;
+  background-color: #1f1f1f !important;
+  border: 1px solid #333;
+}
+
+.field-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.field-input {
+  flex: 1;
+}
+
+.field-select {
+  width: 150px;
+}
+
+.nested-fields {
+  padding-left: 20px;
+  border-left: 2px dashed #444;
+  margin-top: 10px;
+}
+
+.add-button,
+.add-nested-button {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .schema-layout {
+    flex-direction: column;
+  }
+
+  .json-preview {
+    max-height: 300px;
+  }
+}
